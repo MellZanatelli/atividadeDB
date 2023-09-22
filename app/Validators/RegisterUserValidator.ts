@@ -53,5 +53,9 @@ export default class RegisterUserValidator {
    * }
    *
    */
-  public messages: CustomMessages = {}
+  public messages: CustomMessages = {
+    required: "O {{field}} é obrigatório para se registrar!!!",
+    'email.unique': "E-mail já cadastrado!!!",
+    'minLength': "Tamanho de senha inválida!!!"
+  }
 }

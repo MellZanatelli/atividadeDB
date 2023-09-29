@@ -3,6 +3,7 @@
  *
  * Feel free to let us know via PR, if you find something broken in this config
  * file.
+ * cors = controle do acesso das solicitações remotas
  */
 
 import type { CorsConfig } from '@ioc:Adonis/Core/Cors'
@@ -18,9 +19,9 @@ const corsConfig: CorsConfig = {
   |
   | Setting the value to `true` will enable the CORS for all HTTP request. However,
   | you can define a function to enable/disable it on per request basis as well.
-  |
+  | Permite que qualquer lugar acesse a aplicação, sem ser necessariamente o servidor local.
   */
-  enabled: false,
+  enabled: true,
 
   // You can also use a function that return true or false.
   // enabled: (request) => request.url().startsWith('/api')

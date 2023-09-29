@@ -3,6 +3,7 @@
  *
  * Feel free to let us know via PR, if you find something broken in this config
  * file.
+ * CONTA MATEMÁTICA SÓ DE IDA - não é criptografia porque não tem como descriptografar
  */
 
 import Env from '@ioc:Adonis/Core/Env'
